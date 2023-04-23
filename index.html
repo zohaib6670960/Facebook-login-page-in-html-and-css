@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook.com</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: aliceblue;
+            width: 100%;
+            height: 100%;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 4rem;
+        }
+        .container img{
+            width: 200px;
+            height: 40px;
+        }
+        .form{
+            width: 400px;
+            height: auto;
+            padding: 3rem 2rem;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+        .form input{
+            width: 96%;
+            height: 40px;
+            border-radius: 8px;
+            padding: 4px 10px;
+            border: 1px solid rgb(214, 214, 219);
+            outline: 1px solid ghostwhite;
+        }
+        .form button{
+            padding: 8px;
+            font-size: 18px;
+            border-radius: 9px;
+            background-color: rgb(0, 132, 255);
+            border: none;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        #links a{
+            margin-left: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./fblogo.png">
+        <br><br>
+        
+        
+        <div class="form">
+            <h3 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">Log in to Facebook</h3>
+            <br><br>
+            <input type="text" placeholder="Username">
+            <br><br>
+            <input type="password" placeholder="password">
+            <br><br>
+            <button>LogIn</button>
+            <br><br>
+            <div id="links">
+            <a href="#">Forgotton account?</a>
+            <a href="#">SignUp for Facebook.</a>
+        </div>
+        <br><br>
+        <!-- <marquee direction="left" style="font-family: sans-serif;">Subscribe Channel and Like the Video.</marquee> -->
+        
+            
+        </div>
+    </div>
+    
+</body>
+</html>
